@@ -20,7 +20,7 @@ Visual Studio performance recommendations are intended for low memory situations
 
 ## Use a 64-bit OS
 
-If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads, even though it is 32-bit process.
+If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads, even though it is a 32-bit process.
 
 For more information, see [Memory limits](/windows/desktop/Memory/memory-limits-for-windows-releases) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
@@ -31,7 +31,7 @@ For more information, see [Memory limits](/windows/desktop/Memory/memory-limits-
 
 Visual Studio automatically reopens documents that were left open in the previous session. This can prolong the times it takes to load a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and typescript files, can be slow to open.
 
-Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load significantly slower. You can disable automatic file reopening by following these steps:
+Visual Studio notifies you in a yellow bar when the automatic document restore is causing a solution to load significantly slower. You can disable automatic file reopening by following these steps:
 
 1. Select **Tools** > **Options** to open the **Options** dialog box.
 
